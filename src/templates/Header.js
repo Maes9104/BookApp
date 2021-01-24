@@ -3,7 +3,7 @@ const Header = () => {
     <section class="Header-main">
         <div class="Header-logo">
             <h1>
-                <a href="/">
+                <a href="/BookApp">
                     Book App
                 </a>
             </h1>
