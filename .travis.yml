@@ -11,10 +11,10 @@ script:
 deploy:
   provider: pages
   edge: true
-  skp-cleanup: true
-  keep-history: true
+  cleanup: true
+  keep_history: true
   github-token: $GITHUB_TOKEN
-  local-dir: dist/
+  local_dir: dist/
   target-branch: gh-pages
   commit_message: "Deploy Release"
   on: 
